@@ -49,7 +49,6 @@ body {
 
 collapsable-nav{
   clear: both;
-  list-style-position: c;
 }
 
 #nav-list {
@@ -84,7 +83,7 @@ collapsable-nav{
   font-size: 2.5em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #d9534f;
-  margin-top: 10px;
+  margin-top: 130px;
   margin-bottom: 40px;
   line-height: .75;
   text-align: center;
@@ -116,6 +115,7 @@ collapsable-nav{
   text-align: justify;
   font-size: 0.9em;
   text-decoration: none;
+  position: relative;
 }
 
 #Link-title {
@@ -176,13 +176,18 @@ collapsable-nav{
  
 /* END HOME PAGE */
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  .navbar-brand h1 { /* Restaurant name */
-    font-size: 3.5vw; /* 1vw = 1% of viewport width */
- }
-    .container h2{
-  font-size: 3.5vw;
+@media (min-width: 1199px) {
+
 }
+
+@media (min-width: 992px) and (max-width: 1198px) {
+  .navbar-brand h1 { /* Restaurant name */
+    font-size: 3.5vw;
+  }
+  .container h2 {
+  font-size: 3.5vw;
+ }
+ 
 }
   
  @media (min-width: 768px) and (max-width: 991px) {
